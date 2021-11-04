@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+        <li><%= link_to 'Books', books_path %></li>
+        <li><%= link_to 'New', books_new_path %></li>
+        <li><%= link_to 'Signup', new_user_registration_path %></li>
+        <li><%= link_to 'Sign In', new_user_session_path %></li>
+        <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
+    </ul>
+</nav>
